@@ -49,7 +49,7 @@
             email: email, 
             name: fullname
         });
-        analytics.track('destination submitted', user, function() {
+        analytics.track('signup_started', user, function() {
             window.location.href = "";
         });
       }
